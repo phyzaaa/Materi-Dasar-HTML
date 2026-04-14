@@ -37,3 +37,16 @@ Daftar/List
   • HTML
   • CSS
   • Python
+
+Tag Tautan
+  Untuk menghubungkan tautan yang dapat diklik pengguna, gunakan tag <a href=""></a>
+  Contoh:
+  <a href="google.com">Klik di sini</a>
+
+Tag Gambar
+  Untuk menampilkan gambar ke halaman, gunakan tag <img src="">.
+  Selain itu, gunakan tag "alt" agar teks alternatif muncul jika gambar gagal dimuat.
+
+  Contoh:
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.
+  svg/1280px-HTML5_logo_and_wordmark.svg.png?_=20170517184425" alt="Logo HTML">

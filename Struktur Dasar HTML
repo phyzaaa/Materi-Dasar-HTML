@@ -1,0 +1,29 @@
+Apa itu HTML?
+  HTML (HyperText Markup Language) adalah bahasa standar untuk membuat halaman web.
+  HTML bukan bahasa pemrograman, melainkan bahasa markup yang menggunakan "tag" untuk
+  menyusun struktur halaman.
+
+  Untuk membaca file HTML dan mengubahnya menjadi visual, gunakan Browser seperti
+  Chrome atau Edge.
+
+Struktur Tag HTML
+  1. Tag Pembuka <> sebagai awal elemen.
+  2. Isi, yaitu teks atau elemen lain di dalam.
+  3. Tag Penutup </> sebagai akhir elemen.
+
+  Contoh: <p>Hello, World!</p>
+
+Struktur File HTML
+  1. <!DOCTYPE html>    : Menunjukkan bahwa file ini adalah file HTML.
+  2. <html></html>      : Pembungkus seluruh konten halaman.
+  3. <head></head>      : Judul tab.
+  4. <title><title>     : Mengatur nama yang muncul di tab.
+  5. <body></body>      : Isi halaman.
+
+Tag Heading
+  Untuk mengatur judul, ada <h1> sampai <h6>.
+  Tag <h1> adalah judul terbesar. Sedangkan tag <h2> sampai <h6> untuk sub-judul.
+
+Tag Paragraf
+  Tag <p> digunakan untuk menulis teks panjang atau paragraf.
+  Setiap tag <p> otomatis membuat baris baru.

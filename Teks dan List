@@ -1,0 +1,39 @@
+Format Teks
+  1. <strong></strong>    : Untuk menebalkan teks.
+  2. <i></i>              : Untuk memiringkan teks.
+  3. <u></u>              : Untuk menggarisbawahi teks.
+  4. <mark></mark>        : Untuk memberi efek stabilo/highlight teks.
+
+Daftar/List
+  1. <ol></ol>    : Ordered List/Daftar Berurutan. Menggunakan urutan angka.
+  2. <ul></ul>    : Unordered List/Daftar Tidak Berurutan. Menggunakan simbol titik.
+
+  Setiap poin dalam list, menggunakan tag <li></li>. Contoh:
+
+  ----------------------- INPUT -----------------------
+  <ol>
+    <li>Angkat layar laptop ke posisi terbuka</li>
+    <li>Temukan tombol dengan logo daya</li>
+    <li>Tekan sekali dan lepaskan</li>
+    <li>Lampu indikator akan menyala dan layar akan menampilkan logo</li>
+    <li>Tunggu hingga layar log-in</li>
+  </ol>
+
+  ----------------------- OUTPUT -----------------------
+  1. Angkat layar laptop ke posisi terbuka
+  2. Temukan tombol dengan logo daya
+  3. Tekan sekali dan lepaskan
+  4. Lampu indikator akan menyala dan layar akan menampilkan logo
+  5. Tunggu hingga layar log-in
+
+  ----------------------- INPUT -----------------------
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Python</li>
+  </ul>
+
+  ----------------------- OUTPUT -----------------------
+  • HTML
+  • CSS
+  • Python

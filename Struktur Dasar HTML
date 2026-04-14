@@ -27,3 +27,15 @@ Tag Heading
 Tag Paragraf
   Tag <p> digunakan untuk menulis teks panjang atau paragraf.
   Setiap tag <p> otomatis membuat baris baru.
+
+Contoh:
+  --------------- INPUT ---------------                            --------------- OUTPUT ---------------
+  <!DOCTYPE html>                                                  Ini adalah website pertama saya.
+  <html>                                                           
+    <head>                                                         
+      <title>Nama Tab<title>                                       
+    </head>                                                        
+    <body>                                                         
+      <p>Ini adalah website pertama saya.</p>                      
+    <body>                                                         
+  </html>                                                          

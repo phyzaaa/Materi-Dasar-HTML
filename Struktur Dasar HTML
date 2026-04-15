@@ -29,13 +29,16 @@ Tag Paragraf
   Setiap tag <p> otomatis membuat baris baru.
 
 Contoh:
-  --------------- INPUT ---------------                            --------------- OUTPUT ---------------
-  <!DOCTYPE html>                                                  Ini adalah website pertama saya.
-  <html>                                                           
-    <head>                                                         
-      <title>Nama Tab<title>                                       
-    </head>                                                        
-    <body>                                                         
-      <p>Ini adalah website pertama saya.</p>                      
-    <body>                                                         
-  </html>                                                          
+  --------------- INPUT ---------------
+   <!DOCTYPE html>                                                  
+   <html>                                                           
+     <head>                                                         
+       <title>Nama Tab<title>                                       
+     </head>                                                        
+     <body>                                                         
+       <p>Ini adalah website pertama saya.</p>                      
+     </body>                                                         
+   </html>                                                          
+
+  --------------- OUTPUT ---------------
+  Ini adalah website pertama saya.

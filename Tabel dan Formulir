@@ -1,0 +1,9 @@
+Membuat Tabel
+  1. <table>    : Membuat "area" tabel
+  2. <thread>   : Membuat judul kolom
+  3. <tbody>    : Membuat isi tabel
+  4. <tr>       : Membuat baris baru
+  5. <th>       : Sel judul, agar teks otomatis tebal dan di tengah
+  6. <td>       : Sel data biasa
+
+  Contoh:

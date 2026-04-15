@@ -51,3 +51,7 @@ Tag Gambar
   Contoh:
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.
   svg/1280px-HTML5_logo_and_wordmark.svg.png?_=20170517184425" alt="Logo HTML">
+
+Tag Pilihan
+  1. Radio Button (<input type="radio>)  : Digunakan untuk memilih satu opsi.
+  2. Checkbox (<input type="checkbox>)   : Digunakan untuk memilih beberapa opsi.

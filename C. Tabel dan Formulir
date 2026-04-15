@@ -1,0 +1,108 @@
+Membuat Tabel
+  1. <table>  : Membuat "area" tabel
+  2. <thread> : Membuat judul kolom
+  3. <tbody>  : Membuat isi tabel
+  4. <tr>     : Membuat baris baru
+  5. <th>     : Sel judul, teks tebal dan di tengah
+  6. <td>     : Sel data biasa
+
+  Contoh:
+  <!DOCTYPE html>
+  <html lang="id">
+    <head>
+      <meta charset="UTF-8">
+      <title>Contoh Tabel HTML</title>
+    </head>
+    <body>
+      <h2>Tabel Nilai Ulangan Harian Matematika</h2>
+        <table border="1" cellpadding="10" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Nilai</th>
+                    <th>Frekuensi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>61-70</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>71-80</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>81-90</td>
+                    <td>10</td>
+                </tr>
+                </tr>
+                    <td>91-100</td>
+                    <td>5</td>
+            </tbody>
+        </table>
+    </body>
+  </html>
+
+Membuat Formulir
+  1. <form>     : Membuat "area" formulir
+  2. <input>    : Untuk meminta masukan/input dari pengguna
+  3. <button>   : Membuat tombol
+  4. <textarea> : Membuat kolom isian untuk teks panjang
+  5. <label>    : Untuk keterangan pada input
+
+  Contoh:
+  <!DOCTYPE html>
+<html>
+<head>
+    <title>Formulir Pendaftaran Pelajar</title>
+</head>
+<body>
+
+    <h2>Formulir Pendaftaran Kursus</h2>
+    <p>Isilah data di bawah ini dengan benar.</p>
+
+    <form>
+        <div>
+            <label for="nama">Nama Lengkap:</label><br>
+            <input type="text" id="nama" name="nama" placeholder="Contoh: Fulan" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="email">Alamat Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="nama@email.com" required>
+        </div>
+        <br>
+
+        <div>
+            <label>Jenis Kelamin:</label><br>
+            <input type="radio" id="laki" name="gender" value="L">
+            <label for="laki">Laki-laki</label>
+            <input type="radio" id="perempuan" name="gender" value="P">
+            <label for="perempuan">Perempuan</label>
+        </div>
+        <br>
+
+        <div>
+            <label>Minat Materi:</label><br>
+            <input type="checkbox" id="html" name="minat" value="html">
+            <label for="html">HTML</label>
+            <input type="checkbox" id="css" name="minat" value="css">
+            <label for="css">CSS</label>
+            <input type="checkbox" id="js" name="minat" value="js">
+            <label for="js">JavaScript</label>
+        </div>
+        <br>
+
+        <div>
+            <label for="pesan">Alasan Ingin Belajar:</label><br>
+            <textarea id="pesan" name="pesan" rows="4" cols="30"></textarea>
+        </div>
+        <br>
+
+        <button type="submit">Daftar Sekarang</button>
+        <button type="reset">Hapus Semua</button>
+    </form>
+
+</body>
+</html>

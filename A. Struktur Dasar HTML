@@ -33,7 +33,7 @@ Contoh:
    <!DOCTYPE html>                                                  
    <html>                                                           
      <head>                                                         
-       <title>Nama Tab<title>                                       
+       <title>Nama Tab</title>                                       
      </head>                                                        
      <body>                                                         
        <p>Ini adalah website pertama saya.</p>                      

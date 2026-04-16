@@ -55,3 +55,11 @@ Tag Gambar
 Tag Pilihan
   1. Radio Button (<input type="radio>)  : Digunakan untuk memilih satu opsi.
   2. Checkbox (<input type="checkbox>)   : Digunakan untuk memilih beberapa opsi.
+
+  Contoh:
+
+  <p>Apakah kamu main Genshin Impact?</p>
+  <input type="radio" id="ya" name="pertanyaan" value="Iya">
+  <label for="ya">Iya, saya bermain Genshin Impact</label><br>
+  <input type="radio" id="tidak"name="pertanyaan" value="Tidak">
+  <label for="tidak">Tidak, saya tidak bermain Genshin Impact</label><br>

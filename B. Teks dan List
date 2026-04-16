@@ -53,13 +53,20 @@ Tag Gambar
   svg/1280px-HTML5_logo_and_wordmark.svg.png?_=20170517184425" alt="Logo HTML">
 
 Tag Pilihan
-  1. Radio Button (<input type="radio>)  : Digunakan untuk memilih satu opsi.
-  2. Checkbox (<input type="checkbox>)   : Digunakan untuk memilih beberapa opsi.
+  1. Radio Button (<input type="radio>)  : Digunakan untuk memilih satu opsi. Contoh:
+  
+    <p>Apakah kamu main Genshin Impact?</p>
+    <input type="radio" id="ya" name="pertanyaan" value="Iya">
+    <label for="ya">Iya, saya bermain Genshin Impact</label><br>
+    <input type="radio" id="tidak"name="pertanyaan" value="Tidak">
+    <label for="tidak">Tidak, saya tidak bermain Genshin Impact</label><br>
 
-  Contoh:
+  2. Checkbox (<input type="checkbox>)   : Digunakan untuk memilih beberapa opsi. Contoh:
 
-  <p>Apakah kamu main Genshin Impact?</p>
-  <input type="radio" id="ya" name="pertanyaan" value="Iya">
-  <label for="ya">Iya, saya bermain Genshin Impact</label><br>
-  <input type="radio" id="tidak"name="pertanyaan" value="Tidak">
-  <label for="tidak">Tidak, saya tidak bermain Genshin Impact</label><br>
+    <p>Game apa yang kamu mainkan?</p>
+    <input type="checkbox" id="ML" name="pertanyaan" value="Mobile Legend">
+    <label for="ML">Mobile Legend</label><br>
+    <input type="checkbox" id="GI" name="pertanyaan" value="Genshin Impact">
+    <label for="GI">Genshin Impact</label><br>
+    <input type="checkbox" id="FF" name="pertanyaan" value="Free Fire">
+    <label for="FF">Free Fire</label><br>
